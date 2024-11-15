@@ -13,6 +13,10 @@
 </head>
 <body>
 
+    <div class="header">
+        <h2>เข้าสู่ระบบ</h2>
+    </div>
+
     <!-- Login Form -->
     <div class="container">
         <form action="login_db.php" method="post">
@@ -36,8 +40,7 @@
             <button type="submit" name="login_user" class="btn">เข้่าสู่ระบบ</button>
 
             <p>หากยังไม่มีบัญชี : <a href="register.php">สร้างบัญชี</a></p>
-            <p>member : <a href="admin.php">enter to member</a></p>
-
+            <p>admin<a href="admin.php">admin</a></p>
         </form>
     </div>
     

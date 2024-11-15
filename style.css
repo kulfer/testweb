@@ -73,12 +73,6 @@ a:hover {
     text-decoration: underline;
 }
 
-.box-user{
-    background-color: #555;
-    color: white;
-    
-}
-
 /* Error and Success Message Styles */
 .error, .success {
     padding: 10px;
