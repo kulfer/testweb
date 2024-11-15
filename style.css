@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #f0f8ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.header h2 {
+    font-size: 24px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input[type="text"], 
+input[type="password"], 
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.btn:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-top: 20px;
+    color: #555;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Error and Success Message Styles */
+.error, .success {
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.error {
+    color: white;
+    background-color: tomato;
+}
+
+.success {
+    background-color: #2ecc71;
+}
+
+.logout_btn{
+    background-color: tomato;
+    font-weight: bold;
+    color: white;
+    padding: 4px;
+}
+.alogout{
+    color: white;
+    font-weight: bold;
+}
